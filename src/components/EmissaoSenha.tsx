@@ -6,10 +6,10 @@ interface EmissaoSenhaProps {
 }
 
 const setores = [
-  { id: 'secretaria', nome: 'Secretaria Acadêmica', icon: '📋', horarioFechamento: '18:00' },
-  { id: 'ti', nome: 'Tecnologia da Informação', icon: '💻', horarioFechamento: '17:00' },
-  { id: 'biblioteca', nome: 'Biblioteca', icon: '📚', horarioFechamento: '20:00' },
-  { id: 'assistencia', nome: 'Assistência Estudantil', icon: '🤝', horarioFechamento: '17:30' },
+  { id: 'secretaria', nome: 'Secretaria Acadêmica', icon: '📋', horarioFechamento: '21:00' },
+  { id: 'ti', nome: 'Tecnologia da Informação', icon: '💻', horarioFechamento: '21:00' },
+  { id: 'biblioteca', nome: 'Biblioteca', icon: '📚', horarioFechamento: '21:00' },
+  { id: 'assistencia', nome: 'Assistência Estudantil', icon: '🤝', horarioFechamento: '21:30' },
 ];
 
 // RN02: Coordenadas do campus (exemplo: UFSC Florianópolis)
