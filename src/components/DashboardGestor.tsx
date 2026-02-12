@@ -33,7 +33,7 @@ export function DashboardGestor() {
       });
     
     const tempoMedio = temposAtendimento.length > 0
-      ? Math.round(temposAtendimento.reduce((a, b) => a + b, 0) / temposAtendimento.length)
+      ? Math.round(temposAtendimento.reduce((a: number, b: number) => a + b, 0) / temposAtendimento.length)
       : 0;
 
     // Por setor

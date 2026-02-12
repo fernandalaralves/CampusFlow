@@ -1,7 +1,7 @@
 
-  # Sistema de Gerenciamento de Filas
+  # CampusFlow
 
-  This is a code bundle for Sistema de Gerenciamento de Filas. The original project is available at https://www.figma.com/design/2FoCSBP5SV4pXZs4pCVwL5/Sistema-de-Gerenciamento-de-Filas.
+  This is a code bundle for CampusFlow. The original project is available at https://www.figma.com/design/2FoCSBP5SV4pXZs4pCVwL5/Sistema-de-Gerenciamento-de-Filas.
 
   ## Running the code
 

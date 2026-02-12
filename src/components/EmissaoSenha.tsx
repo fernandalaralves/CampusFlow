@@ -94,7 +94,7 @@ export function EmissaoSenha({ onPasswordIssued }: EmissaoSenhaProps) {
       return (fim.getTime() - inicio.getTime()) / 1000 / 60;
     });
 
-    const media = tempos.reduce((a, b) => a + b, 0) / tempos.length;
+    const media = tempos.reduce((a: number, b: number) => a + b, 0) / tempos.length;
     const aguardando = senhas.filter((s: any) => s.setor === setorId && s.status === 'aguardando').length;
     
     const tempoTotal = Math.round(media * (aguardando + 1));

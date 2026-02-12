@@ -43,7 +43,7 @@ export function PainelTV() {
     <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white p-8">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-5xl font-bold mb-4">Sistema de Filas - Campus Universitário</h1>
+        <h1 className="text-5xl font-bold mb-4">CampusFlow</h1>
         <div className="text-2xl opacity-90">
           <p>{formatDate(currentTime)}</p>
           <p className="text-4xl font-bold mt-2">{formatTime(currentTime)}</p>
