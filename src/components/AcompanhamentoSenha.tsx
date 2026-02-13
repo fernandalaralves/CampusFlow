@@ -153,7 +153,7 @@ export function AcompanhamentoSenha({ passwordNumber, onBackToEmission }: Acompa
                 <AlertTriangle className={`w-6 h-6 mt-0.5 ${tempoRestante <= 60 ? 'text-red-600' : 'text-orange-600'}`} />
                 <div className="flex-1">
                   <p className={`font-bold mb-1 ${tempoRestante <= 60 ? 'text-red-900' : 'text-orange-900'}`}>
-                    {senhaInfo.tentativasChamada > 0 ? '⚠️ ÚLTIMA CHAMADA!' : 'Atenção - Compareça imediatamente!'}
+                    {senhaInfo.tentativasChamada > 0 ? ' ÚLTIMA CHAMADA!' : 'Atenção - Compareça imediatamente!'}
                   </p>
                   <div className="flex items-center gap-3">
                     <p className={`text-sm ${tempoRestante <= 60 ? 'text-red-700' : 'text-orange-700'}`}>
@@ -165,7 +165,7 @@ export function AcompanhamentoSenha({ passwordNumber, onBackToEmission }: Acompa
                   </div>
                   {senhaInfo.tentativasChamada > 0 ? (
                     <p className="text-sm text-red-700 mt-2 font-semibold">
-                      ⚠️ Esta é sua última chance! Se não comparecer, sua senha será cancelada.
+                      Esta é sua última chance! Se não comparecer, sua senha será cancelada.
                     </p>
                   ) : (
                     <p className="text-sm text-orange-700 mt-2">
